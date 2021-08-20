@@ -15,7 +15,7 @@ public class MyConnection {
         Connection con = null;
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/java_login_register", "root", "28041965@Jose");
+            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/java_login_register", "root", "YourPassword");
             System.out.println("Succesfull");
 //            jdbc:mysql://localhost:3306/?user=root
         } catch (Exception ex) {
